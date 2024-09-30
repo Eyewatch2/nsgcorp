@@ -33,9 +33,9 @@ const TeamListSection = async () => {
               >
                 {person?.equipo?.nombre}
               </h2>
-              <p className="text-sm text-black/80 line-clamp-2">
+          {/*     <p className="text-sm text-black/80 line-clamp-2">
                 {person?.equipo?.cargo?.replace(/(<([^>]+)>)/gi, "").slice(0, 100)}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
